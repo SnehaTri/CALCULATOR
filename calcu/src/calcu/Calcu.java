@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Main class displays the menu to the user and reads two numbers from the user.
  * It also makes calls to the appropriate methods of class Calculator based upon the menu option selected by user.
  * @param args the command line arguments
- * @author Shifa
+ * @author snehila
  */
 class Calcu
 {
@@ -103,5 +103,4 @@ class operations {
         
     }
 
-    
 }
