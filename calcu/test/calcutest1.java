@@ -1,11 +1,5 @@
 
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 import calcu.Calcu;
 import calcu.Calcu;
 import org.junit.After;
@@ -15,10 +9,8 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author Inspi
- */
+
+
 public class calcutest1 {
     
     Calcu c;
