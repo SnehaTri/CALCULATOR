@@ -1,18 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package calcu;
 import java.util.Scanner;
 
 /**
- * Main class displays the menu to the user and reads two numbers from the user.
- * It also makes calls to the appropriate methods of class Calculator based upon the menu option selected by user.
- * @param args the command line arguments
- * @author snehila
+ * the main class displays the menu for the user and also takes input the choice of the user and depending on the input given by the user 
+ * it moves the pointer to the respective functions defined in the switch statements
  */
-class Calcu
+public class Calcu
 {
      public static void main(String[] args) {
        
