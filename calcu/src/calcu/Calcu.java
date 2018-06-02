@@ -34,14 +34,14 @@ class Calcu
         {
             case 1:System.out.print(c1.add(number1,number2));
                    break;
-            case 2:System.out.print(c1.subtract(number1,number2));
+            case 2:System.out.print(c1.sub(number1,number2));
                    break;
-            case 3:System.out.print(c1.multiply(number1,number2));
+            case 3:System.out.print(c1.mul(number1,number2));
                    break;
             case 4:if(number2==0)
                     System.out.println("Cannot divide by zero\n");
                     else
-                    System.out.print(c1.divide(number1,number2));
+                    System.out.print(c1.div(number1,number2));
                     break;
             default:System.out.println("You entered an invalid choice\n");
         }
@@ -72,7 +72,7 @@ class operations {
      * @param number2 Second operand
      * @return Result of subtraction of two parameter values
      */
-     float subtract(float number1,float number2)
+     float sub(float number1,float number2)
     {
         return (number1-number2);
     }
@@ -83,7 +83,7 @@ class operations {
      * @param number2 Second operand
      * @return Result of multiplication of two parameter values
      */
-      float multiply(float number1,float number2)
+      float mul(float number1,float number2)
     {
         return (number1*number2);
     }
@@ -94,7 +94,7 @@ class operations {
      * @param number2 Second operand
      * @return Result of division of two parameter values
      */
-       float divide(float number1,float number2)
+       float div(float number1,float number2)
     {
         if(number2 == 0)
             throw new ArithmeticException();
